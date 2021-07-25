@@ -1,9 +1,51 @@
+/* CLEAR BROWSER */
 body{
     margin: 0px;
     padding: 0px;
 }
 
+/* GENERIC */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* LOGO */
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    display: inline-block;
+}
+
+/* IMAGES */
 #logoImg {
     width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+#heroImg {
+    width: 100px;
     height: auto;
+}
+
+/* NAV */
+
+nav {
+   width: 73%;
+   padding: 1%;
+   float: right;
+   text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 2%;
+}
+
+.aboutBody {
+    margin-left: 25%;
+    margin-right: 25%;
 }
